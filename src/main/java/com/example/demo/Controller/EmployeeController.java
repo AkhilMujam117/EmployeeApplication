@@ -14,6 +14,6 @@ public class EmployeeController {
     @GetMapping("/Employees")
     public ResponseEntity<String> getEmployee()
     {
-        return new ResponseEntity<>("employee details", HttpStatus.OK);
+        return new ResponseEntity<>("employee values", HttpStatus.OK);
     }
 }
